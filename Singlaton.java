@@ -5,12 +5,10 @@
     {
 
     }
-    private static Singlaton getSinglaton()
+    public  static Singlaton getSinglaton()
     {
         return obj;
     }
-    public void  addsomething()
-    {
 
-    }
 }
+
