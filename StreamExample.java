@@ -12,6 +12,11 @@ public class StreamExample {
                 .map(String::toUpperCase)
                 .collect((Collectors.toList()));
         System.out.println(processingStrings);
+        List<String> processingString= strings.stream()
+                .filter(s->s.length()>3)
+                .sorted()
+                .map(String::toUpperCase)
+                .collect((Collectors.toList()));
 
     }
 }

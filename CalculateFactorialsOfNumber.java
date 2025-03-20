@@ -7,6 +7,6 @@ public class CalculateFactorialsOfNumber
         int no=5;
         int factorial= IntStream.rangeClosed(1,no)
                 .reduce(1,(a,b)->a*b);
-        System.out.println("Factorilas"+ no + "is"+factorial);
+        System.out.println("Factorials"+ no + "is"+factorial);
     }
 }
